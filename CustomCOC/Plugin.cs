@@ -29,11 +29,11 @@ namespace CustomCOC
         {
             GameObject cocHeaderObject = GameObject.Find("/Level/lower level/UI/CodeOfConduct");
             Text cocHeaderText = cocHeaderObject.GetComponent<Text>();
-            cocHeaderText.text = "FUN STUFF! YIPPEE!";
+            cocHeaderText.text = "Custom Header";
 
             GameObject cocObject = GameObject.Find("/Level/lower level/UI/Tree Room Texts/COC Text");
             Text cocText = cocObject.GetComponent<Text>();
-            cocText.text = "PRETEND I HAVE STUFF HERE LOL";
+            cocText.text = "Custom Body";
         }
 
         void Update()
